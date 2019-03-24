@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  background-image: url(map3.png);
+  background-size: cover;
+  border: 1px black solid;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  align-items: top;
+}
+
+.panel {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f0f0f0;
+  width: 360px;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.block {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  padding: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+
+#name {
+  font-size: 60px;
+}
